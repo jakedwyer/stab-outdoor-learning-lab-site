@@ -1,0 +1,236 @@
+{
+  "shots": {
+    "arrival": [
+      [
+        35,
+        -60,
+        21
+      ],
+      [
+        12,
+        -13,
+        0
+      ]
+    ],
+    "garden": [
+      [
+        10.2,
+        -48,
+        2.2
+      ],
+      [
+        4.0,
+        -43.0,
+        0.9
+      ]
+    ],
+    "sensory": [
+      [
+        12.8,
+        -47.9,
+        2.1
+      ],
+      [
+        18.8,
+        -42.5,
+        0.9
+      ]
+    ],
+    "play": [
+      [
+        9.3,
+        -31.5,
+        2.1
+      ],
+      [
+        17,
+        -25,
+        1.0
+      ]
+    ],
+    "games": [
+      [
+        9.3,
+        -18.6,
+        2.3
+      ],
+      [
+        18,
+        -12.8,
+        0.9
+      ]
+    ],
+    "stem": [
+      [
+        10.0,
+        -4.8,
+        2.0
+      ],
+      [
+        18,
+        3,
+        1.0
+      ]
+    ],
+    "fitness": [
+      [
+        12.6,
+        12.8,
+        2.1
+      ],
+      [
+        18.5,
+        20,
+        1.1
+      ]
+    ],
+    "classroom": [
+      [
+        10.2,
+        30.4,
+        2.1
+      ],
+      [
+        19,
+        38.2,
+        1.0
+      ]
+    ],
+    "hill": [
+      [
+        2,
+        31,
+        2.0
+      ],
+      [
+        -7,
+        38,
+        -1
+      ]
+    ],
+    "overview": [
+      [
+        65,
+        -58,
+        83
+      ],
+      [
+        4,
+        0,
+        0
+      ]
+    ]
+  },
+  "retainingWall": {
+    "x": 24.94,
+    "heightMeters": 0.9144,
+    "heightFeet": 3,
+    "status": "User confirmed approximate three-foot wall; football field is the raised side"
+  },
+  "source": "LearningByDoing_CampaignCaseForSupport_Final.pdf",
+  "sourcePlan": {
+    "image": "r/plan.jpg",
+    "width": 2304,
+    "height": 3528,
+    "pixelsPerMeter": 34
+  },
+  "zones": [
+    {
+      "key": "garden",
+      "sourceImage": "r/z1.jpg",
+      "planPixel": [
+        1300,
+        3250
+      ],
+      "worldCenter": [
+        4.352941176470587,
+        -43.70588235294118
+      ]
+    },
+    {
+      "key": "sensory",
+      "sourceImage": "r/z2.jpg",
+      "planPixel": [
+        1788,
+        3225
+      ],
+      "worldCenter": [
+        18.705882352941174,
+        -42.97058823529412
+      ]
+    },
+    {
+      "key": "play",
+      "sourceImage": "r/z3.jpg",
+      "planPixel": [
+        1700,
+        2650
+      ],
+      "worldCenter": [
+        16.11764705882353,
+        -26.05882352941176
+      ]
+    },
+    {
+      "key": "games",
+      "sourceImage": "r/z4.jpg",
+      "planPixel": [
+        1750,
+        2225
+      ],
+      "worldCenter": [
+        17.588235294117645,
+        -13.558823529411761
+      ]
+    },
+    {
+      "key": "stem",
+      "sourceImage": "r/z5.jpg",
+      "planPixel": [
+        1750,
+        1725
+      ],
+      "worldCenter": [
+        17.588235294117645,
+        1.147058823529413
+      ]
+    },
+    {
+      "key": "fitness",
+      "sourceImage": "r/z6.jpg",
+      "planPixel": [
+        1800,
+        1125
+      ],
+      "worldCenter": [
+        19.05882352941176,
+        18.794117647058826
+      ]
+    },
+    {
+      "key": "classroom",
+      "sourceImage": "r/z7.jpg",
+      "planPixel": [
+        1800,
+        500
+      ],
+      "worldCenter": [
+        19.05882352941176,
+        37.1764705882353
+      ]
+    },
+    {
+      "key": "hill",
+      "sourceImage": "r/z8.jpg",
+      "planPixel": [
+        950,
+        475
+      ],
+      "worldCenter": [
+        -5.9411764705882355,
+        37.911764705882355
+      ]
+    }
+  ],
+  "seed": 27
+}
