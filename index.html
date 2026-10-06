@@ -5,6 +5,7 @@
 <meta name="theme-color" content="#26392f"><meta name="description" content="Step inside a new landscape for learning. Explore the proposed K–4 Outdoor Learning Lab & Playground at St. Anne’s-Belfield School.">
 <title>Learning by Doing · St. Anne’s-Belfield</title>
 <link rel="stylesheet" href="experience.css">
+<link rel="stylesheet" href="story.css">
 <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
 </head>
 <body>
@@ -22,6 +23,7 @@
     <p class="intro">A garden becomes a laboratory.<br>A climb becomes a breakthrough.<br>A little curiosity becomes a lifetime of discovery.</p>
     <div class="entry-actions"><button id="enter" class="primary">Explore the eight places <span>↗</span></button><button id="enter-walk" class="secondary">Walk in 3D <span>→</span></button></div>
     <p class="entry-note">Explore the proposed K–4 Outdoor Learning Lab & Playground.</p>
+    <button id="story-open" class="story-invite" aria-haspopup="dialog"><span class="story-play" aria-hidden="true">▶</span><span>See what begins here<small>A 28-second introduction</small></span><span aria-hidden="true">↗</span></button>
   </section>
   <div id="hero-footer" class="hero-footer"><span>EIGHT PLACES TO DISCOVER.<br><b>One extraordinary place to grow.</b></span><button class="support-trigger">Help bring it to life <span>↗</span></button></div>
   <div id="loading" role="status" hidden><span class="spinner"></span><span id="load-message">Opening the garden gate…</span></div>
@@ -44,9 +46,16 @@
   </div>
   <div class="concept">CONCEPTUAL DESIGN <button id="about" aria-label="About this concept">i</button></div>
 </main>
+<dialog id="story-dialog" aria-labelledby="story-title">
+  <div class="story-top"><div><p class="eyebrow">LEARNING BY DOING</p><h2 id="story-title">Small moments. Lifelong possibilities.</h2></div><button id="story-close" aria-label="Close introduction">×</button></div>
+  <div id="story-stage"><p id="story-loading" role="status">Opening the story…</p></div>
+  <nav class="story-chapters" aria-label="Introduction chapters"><button data-story-time="0">01 <span>Curiosity</span></button><button data-story-time="7">02 <span>Confidence</span></button><button data-story-time="14">03 <span>Possibility</span></button><button data-story-time="21">04 <span>Belonging</span></button></nav>
+  <div class="story-bottom"><p id="story-caption">A small discovery. A bigger world.</p><button id="story-explore" class="primary">Explore the eight places <span>↗</span></button></div>
+</dialog>
 <dialog id="support"><button class="dialog-close" aria-label="Close the vision">×</button><div class="support-image"><img src="r/z5.jpg" alt="The proposed outdoor STEM lab, with timber workbenches, a math shed, and a music wall." loading="lazy"><span>IMAGINE WHAT BEGINS HERE.</span></div><div class="support-content"><p class="eyebrow">THE LEARNING BY DOING CAMPAIGN</p><h2>The environment<br>can be a <em>teacher.</em></h2><p>Every day, children will dig, build, climb, test ideas, and discover what they can do. Your gift helps bring classroom, laboratory, garden, and playground together in one connected landscape.</p><div class="campaign-facts"><div><strong>$1 million+</strong><span>Campaign goal</span></div><div><strong>August 2027</strong><span>Campaign’s hoped-for opening</span></div></div><p id="gift-context">A gift of $750,000 offers the opportunity to name the entire Outdoor Learning Lab & Playground.</p><div id="giving-list"></div><p class="pledges">Multiyear pledges are welcome.</p><a class="primary" href="mailto:cboyd@stab.org?subject=Learning%20by%20Doing%20Campaign">Discuss your gift <span>↗</span></a><p class="contact">Carrie Boyd · Director of Campaign Strategy<br><a href="tel:+14342965106,1258">(434) 296-5106 ext. 1258</a> · <a href="mailto:cboyd@stab.org">cboyd@stab.org</a></p></div></dialog>
 <dialog id="image-gallery"><button class="dialog-close" aria-label="Close image gallery">×</button><div class="gallery-views segmented"><button id="gallery-design" aria-pressed="true">Design image</button><button id="gallery-render" aria-pressed="false">3D view</button></div><figure><img id="gallery-image" src="r/z1.jpg" alt=""><figcaption><span id="gallery-caption"></span><a id="gallery-full" href="r/z1.jpg" target="_blank" rel="noopener">Full size ↗</a></figcaption></figure><nav id="gallery-thumbs" aria-label="All design images"></nav></dialog>
 <dialog id="about-dialog"><button class="dialog-close" aria-label="Close concept details">×</button><p class="eyebrow">ABOUT THIS LANDSCAPE</p><h2>A vision of what’s possible.</h2><p>The design views preserve the supplied conceptual imagery. The interactive walkthrough follows the campaign’s <em>Learning by Doing</em> case for support. It is a spatial interpretation, not a school-approved construction design. Final features, dimensions, planting, and grades will evolve.</p><p>The retaining wall between the football field and play space is included. It is shown at approximately three feet, with the football field on the raised side, as confirmed by the project brief. Detailed dimensions remain conceptual.</p><p>Gift amounts, campaign goal, contact details, and hoped-for opening are drawn from the supplied campaign flyer.</p></dialog>
 <noscript><div class="no-script">Explore the vision for the Outdoor Learning Lab. To discuss your gift, contact <a href="mailto:cboyd@stab.org">Carrie Boyd</a>. Enable JavaScript for the interactive walk.</div></noscript>
 <script type="module" src="experience.js"></script>
+<script type="module" src="story.js"></script>
 </body></html>
